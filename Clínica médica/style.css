@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+{
+     font-family: 'Segoe UI', Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f7f6;
+    color: #333333;
+    padding: 20px;
+}
+header {
+    text-align: center;
+    background-color: #ffffff;
+    padding: 40px 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+    margin-bottom: 30px;
+}
+
+#titulo-clinica {
+    color: #007b83; /* Verde médico / ciano escuro */
+    font-size: 2.5rem;
+    margin-bottom: 15px;
+}
+
+.bemvindo {
+    font-size: 1.2rem;
+    color: #666666;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+section {
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+}
+
+section h2 {
+    color: #007b83;
+    margin-bottom: 20px;
+    border-bottom: 2px solid #e0f2f1;
+    padding-bottom: 10px;
+}
+
+.grid-servicos, .grid-medicos {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.servico h3 {
+    color: #004d40;
+    margin-bottom: 10px;
+}
+
+.medico {
+    flex: 1 1 calc(33.333% - 20px);
+    background-color: #f9f9f9;
+    padding: 20px;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.medico h3 {
+    color: #333333;
+    margin-bottom: 5px;
+}
+
+.especialidade {
+    color: #007b83;
+    font-weight: bold;
+    font-size: 0.95rem;
+}
+
+#aviso {
+    background-color: #fff3cd;
+    border: 1px solid #ffeeba;
+    color: #856404;
+}
+
+.depoimento {
+    background-color: #f9f9f9;
+    font-style: italic;
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    border-left: 3px solid #ccc;
+}
+
+footer {
+    text-align: center;
+    color: #888888;
+    font-size: 0.9rem;
+    margin-top: 40px;
+}
